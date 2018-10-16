@@ -1,0 +1,123 @@
+body {
+    margin: 20px 20px;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: white;
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #3F474B;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #BA5E78;
+}
+
+.dinner-list-wrapper {
+    background: #343B42;
+    padding-bottom: 70px;
+}
+
+section {
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.dinner-list-item {
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+li {
+    margin: 0px 0px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    display: inherit;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+p > small {
+    font-weight: lighter;
+    opacity: 0.6;
+}
+
+small {
+    quotes: "(" ")";
+}
+
+small:before {
+    content: open-quote;
+}
+
+small:after {
+    content: close-quote;
+}
+
+li:nth-child(2n) {
+    background: #635770;
+}
+
+li:nth-child(2n+1) {
+    background: #847897;
+}
+
+li:hover {
+    border: 3px solid white;
+
+}
+
+label:hover {
+    background: #423753;
+
+}
+
+label:active {
+    background: red;
+}
+
+input:checked + p {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+footer {
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 40%;
+}
+
+.foot {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: #3F474B;
+    color: #BA5E78;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+
+
+
+
