@@ -1,123 +1,84 @@
 body {
-    margin: 20px 20px;
     font-family: "Trebuchet MS", Arial, sans-serif;
-    color: white;
+    margin: 20px;
 }
 
 header {
-    padding-top: 40px;
-    padding-bottom: 40px;
     background: #3F474B;
-    text-align: center;
+    color: #BA5E78;
+    padding: 50px 0;
 }
 
 h1, h2 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #BA5E78;
+    text-align: center;
 }
 
 .dinner-list-wrapper {
     background: #343B42;
-    padding-bottom: 70px;
 }
 
 section {
     width: 40%;
-    padding-left: 30%;
-    padding-right: 30%;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: 0 auto ;
 }
 
-.dinner-list-item {
-    margin-top: 0;
-    margin-bottom: 0px;
-    padding-left: 0px;
+ul {
+    margin: 0;
     list-style: none;
+    padding: 0;
 }
 
 li {
-    margin: 0px 0px;
-    height: 50px;
-    border: 1px solid white;
-}
-
-label {
-    display: inline-block;
-    width: 100%;
-    line-height: 50px;
-}
-
-p {
-    display: inherit;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 1.1em;
-    font-weight: bolder;
-}
-
-p > small {
-    font-weight: lighter;
-    opacity: 0.6;
-}
-
-small {
-    quotes: "(" ")";
-}
-
-small:before {
-    content: open-quote;
-}
-
-small:after {
-    content: close-quote;
+    color: #FFFFFF;
+    /*height: 50px;*/
+    border: 2px solid transparent;
+    padding: 0 5px;
 }
 
 li:nth-child(2n) {
     background: #635770;
 }
 
+
 li:nth-child(2n+1) {
     background: #847897;
 }
 
 li:hover {
-    border: 3px solid white;
-
+    border: 2px solid white;
 }
 
-label:hover {
-    background: #423753;
-
+label {
+    width: 100%;
+    display: block;
+    /*line-height: 50px;*/
 }
 
 label:active {
     background: red;
 }
 
+p {
+    display: inline-block;
+}
+
 input:checked + p {
     text-decoration: line-through;
-    opacity: 0.6;
 }
 
 footer {
-    padding-left: 30%;
-    padding-right: 30%;
-    width: 40%;
+    padding: 10px 0 50px;
 }
 
-.foot {
-    margin-top: 0px;
-    margin-bottom: 0px;
+.footer-inner {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
     background: #3F474B;
     color: #BA5E78;
-    font-size: 20px;
-    text-align: center;
-    line-height: 2.5;
 }
-
-
-
-
 
